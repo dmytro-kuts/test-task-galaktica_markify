@@ -379,16 +379,21 @@ h6 {
   background-color: #7F3A6A;
 }
 
+.social-footer__item img {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
 .social-footer__item_circle {
   border-radius: 50%;
 }
 
 .social-footer__item_square {
   border-radius: 0.375rem;
-}
-
-.social-footer__item::before {
-  font-size: 1.25rem;
 }
 
 .contact-us__title {
