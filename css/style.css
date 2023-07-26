@@ -518,6 +518,22 @@ h6 {
   height: 28.8125rem;
 }
 
+.trafic {
+  -webkit-transform: translate(0px, 20%);
+      -ms-transform: translate(0px, 20%);
+          transform: translate(0px, 20%);
+  opacity: 0;
+}
+
+.trafic._watcher-view {
+  -webkit-transform: translate(0px, 0);
+      -ms-transform: translate(0px, 0);
+          transform: translate(0px, 0);
+  opacity: 1;
+  -webkit-transition: all 0.8s ease 0.2s;
+  transition: all 0.8s ease 0.2s;
+}
+
 .trafic-purple {
   position: relative;
   z-index: 2;
